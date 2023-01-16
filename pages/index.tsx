@@ -3,7 +3,9 @@ import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai";
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
-
+import webdev from '../public/webdev.png';
+import python from '../public/python.png';
+import code from '../public/code.png';
 
 export default function Home() {
     return(
@@ -49,13 +51,65 @@ export default function Home() {
                   <p className="text-md py-2 leading-8 text-gray-800"> 
                    Since I'm a Student So I'm beginning my
                    journey as a freelancer Python Developer and
-                   Web Developer I have done some project like 
+                   Web Developer, I have done some project like 
                    <span className="text-teal-500"> EduCentre</span>,
                    <span className="text-teal-500"> Olympic Data Analysis</span>,
                    <span className="text-teal-500"> Trenquile Shelters</span> etc.
-                   Right now I'm looking for collaborate with talanted people to create
-                   some useful and creative projects.
                    </p>
+                   <p className="text-md py-2 leading-8 text-gray-800"> 
+                   I'm looking for collaborate with talanted people to create
+                   some useful and creative projects.
+                   </p>  
+               </div>
+               <div>
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+                     <Image className="dis" src={webdev} width={100} height={100} />
+                     <h3 className="text-lg font-medium pt-8 pb-2">Web Development</h3>
+                     <p className="py-2">
+                        Creating Web Project suited for your needs.
+                     </p>
+                     <h4 className="py-4 text-teal-600">Web Development Tools I use</h4>
+                     <p className="text-gray-800 py-1">React</p>
+                     <p className="text-gray-800 py-1">JavaScript</p>
+                     <p className="text-gray-800 py-1">Tailwind</p>
+
+                  </div>
+               </div>
+
+               <div>
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+                     <Image className="dis" src={python} width={100} height={100} />
+                     <h3 className="text-lg font-medium pt-8 pb-2">Web Development</h3>
+                     <p className="py-2">
+                        Creating Web Project suited for your needs.
+                     </p>
+                     <h4 className="py-4 text-teal-600">Web Development Tools I use</h4>
+                     <p className="text-gray-800 py-1">React</p>
+                     <p className="text-gray-800 py-1">JavaScript</p>
+                     <p className="text-gray-800 py-1">Tailwind</p>
+
+                  </div>
+               </div>
+
+               <div>
+                  <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+                     <Image className="dis" src={code} width={100} height={100} />
+                     <h3 className="text-lg font-medium pt-8 pb-2">Web Development</h3>
+                     <p className="py-2">
+                        Creating Web Project suited for your needs.
+                     </p>
+                     <h4 className="py-4 text-teal-600">Web Development Tools I use</h4>
+                     <p className="text-gray-800 py-1">React</p>
+                     <p className="text-gray-800 py-1">JavaScript</p>
+                     <p className="text-gray-800 py-1">Tailwind</p>
+
+                  </div>
+               </div>
+
+            </section>
+            <section>
+               <div>
+                  
                </div>
             </section>
          </main>
